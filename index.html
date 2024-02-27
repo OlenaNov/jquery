@@ -8,6 +8,8 @@
     <script src="./script/lesson-2.js"></script>
     <script src="./script/lesson-3.js"></script>
     <script src="./script/lesson-4.js"></script>
+    <script src="./script/lesson-5.js"></script>
+    <script src="./script/lesson-6.js"></script>
     <title>jQuery</title>
 </head>
 <body> 
@@ -17,6 +19,10 @@
             display: flex;
             align-items: flex-start;
         }
+
+        iframe {
+            display: none;
+        }
     </style>
 
     <ul>
@@ -25,7 +31,7 @@
             <iframe 
                 src="./markup/lesson-2.html"
                 width="900px"
-                height="600px"
+                height="540px"
                 frameborder="0"
                 id="lesson-2">
             </iframe>
@@ -35,7 +41,7 @@
             <iframe 
                 src="./markup/lesson-3.html"
                 width="900px"
-                height="600px"
+                height="380px"
                 frameborder="0"
                 id="lesson-3">
             </iframe>
@@ -46,8 +52,28 @@
                 src="./markup/lesson-4.html" 
                 frameborder="0"
                 width="900px"
-                height="600px"
+                height="180px"
                 id="lesson-4">
+            </iframe>
+        </li>
+        <li>
+            <button type="button" class="lesson-5">Lesson 5</button>
+            <iframe 
+                src="./markup/lesson-5.html" 
+                frameborder="0"
+                width="180px"
+                height="600px"
+                id="lesson-5">
+            </iframe>
+        </li>
+        <li>
+            <button type="button" class="lesson-6">Lesson 6</button>
+            <iframe 
+                src="./markup/lesson-6.html" 
+                frameborder="0"
+                width="180px"
+                height="600px"
+                id="lesson-6">
             </iframe>
         </li>
     </ul>
