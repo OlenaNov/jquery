@@ -10,6 +10,8 @@
     <script src="./script/lesson-4.js"></script>
     <script src="./script/lesson-5.js"></script>
     <script src="./script/lesson-6.js"></script>
+    <script src="./script/lesson-7.js"></script>
+    <script src="./script/lesson-8.js"></script>
     <title>jQuery</title>
 </head>
 <body> 
@@ -18,6 +20,11 @@
         li {
             display: flex;
             align-items: flex-start;
+            flex-direction: column;
+        }
+
+        li:not(:last-child) {
+            margin-bottom: 8px;
         }
 
         iframe {
@@ -27,7 +34,7 @@
 
     <ul>
         <li>
-            <button type="button" class="lesson-2">Lesson 2</button>
+            <button type="button" class="lesson-2">2. Selettori</button>
             <iframe 
                 src="./markup/lesson-2.html"
                 width="900px"
@@ -37,7 +44,7 @@
             </iframe>
         </li>
         <li>
-            <button type="button" class="lesson-3">Lesson 3</button>
+            <button type="button" class="lesson-3">3. Eventi</button>
             <iframe 
                 src="./markup/lesson-3.html"
                 width="900px"
@@ -47,7 +54,7 @@
             </iframe>
         </li>
         <li>
-            <button type="button" class="lesson-4">Lesson 4</button>
+            <button type="button" class="lesson-4">4. Show e Hide</button>
             <iframe 
                 src="./markup/lesson-4.html" 
                 frameborder="0"
@@ -57,7 +64,7 @@
             </iframe>
         </li>
         <li>
-            <button type="button" class="lesson-5">Lesson 5</button>
+            <button type="button" class="lesson-5">5. Effetto e Slide</button>
             <iframe 
                 src="./markup/lesson-5.html" 
                 frameborder="0"
@@ -67,13 +74,33 @@
             </iframe>
         </li>
         <li>
-            <button type="button" class="lesson-6">Lesson 6</button>
+            <button type="button" class="lesson-6">6. Animazione</button>
             <iframe 
                 src="./markup/lesson-6.html" 
                 frameborder="0"
-                width="180px"
-                height="600px"
+                width="400px"
+                height="300px"
                 id="lesson-6">
+            </iframe>
+        </li>
+        <li>
+            <button type="button" class="lesson-7">7. Stop, Chaining e Callback</button>
+            <iframe 
+                src="./markup/lesson-7.html" 
+                frameborder="0"
+                width="400px"
+                height="300px"
+                id="lesson-7">
+            </iframe>
+        </li>
+        <li>
+            <button type="button" class="lesson-8">8. Leggere e scrivere contenuto</button>
+            <iframe 
+                src="./markup/lesson-8.html" 
+                frameborder="0"
+                width="400px"
+                height="300px"
+                id="lesson-8">
             </iframe>
         </li>
     </ul>

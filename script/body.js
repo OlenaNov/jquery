@@ -20,4 +20,12 @@ $(document).ready(function() {
         $(this).contents().find(".lesson-6").click(() => {
             $(this).contents().find("#lesson-6").slideToggle(1000);
         });
+
+        $(this).contents().find(".lesson-7").click(() => {
+            $(this).contents().find("#lesson-7").slideToggle(1000);
+        });
+
+        $(this).contents().find(".lesson-8").click(() => {
+            $(this).contents().find("#lesson-8").slideToggle(1000);
+        });
 });
