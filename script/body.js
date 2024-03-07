@@ -1,4 +1,17 @@
 
+// $(document).ready(function() {
+//     function handleLessonsList(lessonNumber) {
+//             $(this).contents().find(`#lesson-${lessonNumber}`).slideToggle(1000);
+//         };
+
+//     $(this).contents().find(".lesson").click(function() {
+//        console.log("lessonNumber");
+//         let lessonNumber = $(this).data("lesson");
+//        handleLessonsList(lessonNumber);
+//     });
+// });
+
+
 $(document).ready(function() {
         $(this).contents().find(".lesson-2").click(() => {
             $(this).contents().find("#lesson-2").slideToggle(500);
@@ -27,5 +40,9 @@ $(document).ready(function() {
 
         $(this).contents().find(".lesson-8").click(() => {
             $(this).contents().find("#lesson-8").slideToggle(1000);
+        });
+
+        $(this).contents().find(".lesson-9").click(() => {
+            $(this).contents().find("#lesson-9").slideToggle(1000);
         });
 });
