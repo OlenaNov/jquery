@@ -49,4 +49,8 @@ $(document).ready(function() {
         $(this).contents().find(".lesson-10").click(() => {
             $(this).contents().find("#lesson-10").slideToggle(1000);
         });
+
+        $(this).contents().find(".lesson-11").click(() => {
+            $(this).contents().find("#lesson-11").slideToggle(1000);
+        });
 });
