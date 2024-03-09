@@ -1,1 +1,1 @@
-# jquery
+# jQuery tutorial
